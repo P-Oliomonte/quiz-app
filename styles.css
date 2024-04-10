@@ -191,6 +191,33 @@ h1 i {
   margin-top: 10px;
 }
 
+.counter-container {
+    margin: auto;
+    width: 80%;
+    background-color: #efefef;
+    border-top: 1px solid #003566;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.counter {
+    font-family: Noto Sans, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    background-color: #acb5bc;
+    min-width: 50px;
+    padding: 4px 8px;
+    border-radius: 2px;
+}
+
+.counter i {
+    padding-right: 10px;
+}
+
 /* Hier startet der Footer */
 
 .nav-bar {
