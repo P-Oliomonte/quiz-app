@@ -51,5 +51,8 @@ h1 i {
 
 .button-show {
   display: block;
+  padding: 15px 20px;
   margin: auto;
+  background-color: #ffc300;
+  border: 0;
 }
