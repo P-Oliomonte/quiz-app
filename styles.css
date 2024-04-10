@@ -37,8 +37,6 @@ h1 i {
 
 /* Hier endet der Header */
 
-/* Hier startet die card */
-
 .space-top {
   height: 90px;
 }
@@ -46,6 +44,8 @@ h1 i {
 .space-bottom {
   height: 70px;
 }
+
+/* Hier startet die card */
 
 .question-card {
   background-color: #e3edf7;
@@ -113,7 +113,6 @@ h1 i {
   margin: auto;
   background-color: #ffc300;
   border: 1px solid #003566;
-  /* border-radius: 5px; */
 }
 
 .button:active {
@@ -152,6 +151,45 @@ h1 i {
 }
 
 /* Hier endet die card */
+
+/* Hier startet das profile */
+
+.pic-and-name {
+  color: #003566;
+  font-size: 14px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 80%;
+  padding 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 70px;
+}
+
+.about {
+  color: #003566;
+  font-size: 14px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+.about h2 {
+  color: #ffc300;
+  font-size: 22px;
+}
+
+.about p {
+  color: #003566;
+  margin-top: 10px;
+}
 
 /* Hier startet der Footer */
 
