@@ -21,7 +21,7 @@ h1 {
   font-size: 36px;
   font-weight: 550;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 15px;
   position: fixed;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
@@ -41,6 +41,10 @@ h1 i {
 
 .space-top {
   height: 90px;
+}
+
+.space-bottom {
+  height: 70px;
 }
 
 .question-card {
@@ -74,6 +78,23 @@ h1 i {
   fill: #003566;
 }
 
+.bookmark-checked {
+  height: 55px;
+  fill: #003566;
+  stroke-miterlimit: 10;
+  stroke-width: 8px;
+  position: relative;
+  top: -30px;
+}
+
+.bookmark-checked:visited {
+  fill: #ffc300;
+}
+
+.bookmark-checked:active {
+  fill: #ffc300;
+}
+
 .question {
   color: #000814;
   text-align: center;
@@ -86,12 +107,12 @@ h1 i {
   font-family: Noto Sans, "sans-serif";
   color: #003566;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
   padding: 12px 20px;
   margin: auto;
   background-color: #ffc300;
-  border: 2px solid #003566;
+  border: 1px solid #003566;
   /* border-radius: 5px; */
 }
 
@@ -107,10 +128,10 @@ h1 i {
 .answer {
   color: #000814;
   background-color: white;
-  border: 2px solid #003566;
+  border: 1px solid #003566;
   border-top: 0px;
   padding: 20px;
-  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 .tags {
@@ -131,3 +152,42 @@ h1 i {
 }
 
 /* Hier endet die card */
+
+/* Hier startet der Footer */
+
+.nav-bar {
+  width: 100%;
+  background-color: #ffc300;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  width: 33%;
+  background-color: #ffc300;
+  color: #003566;
+}
+
+.nav-button:active {
+  background-color: #003566;
+  color: white;
+}
+
+.nav-button-on {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  width: 33%;
+  background-color: #003566;
+  color: white;
+}
+
+/* Hier endet der Footer */
