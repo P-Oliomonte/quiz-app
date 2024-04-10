@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,413;1,413&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 * {
   margin: 0;
@@ -43,10 +43,32 @@ h1 i {
   padding: 20px;
 }
 
+.bookmark-container {
+  display: flex;
+  justify-content: end;
+}
+
+.bookmark-unchecked {
+  height: 55px;
+  fill: #ffc300;
+  stroke-miterlimit: 10;
+  stroke-width: 8px;
+  position: relative;
+  top: -30px;
+}
+
+.bookmark-unchecked:visited {
+  fill: #003566;
+}
+
+.bookmark-unchecked:active {
+  fill: #003566;
+}
+
 .question {
   color: #000814;
   text-align: center;
-  margin-top: 30px;
+  margin-top: -15px;
   padding-bottom: 30px;
 }
 
@@ -61,6 +83,10 @@ h1 i {
   background-color: #ffc300;
   border: 0;
   border-radius: 5px;
+}
+
+.button-show i {
+  padding-left: 8px;
 }
 
 .tags {
