@@ -30,3 +30,26 @@ h1 i {
   top: -3px;
   padding-right: 10px;
 }
+
+.space-top {
+  height: 120px;
+}
+
+.question-card {
+  background-color: #e3edf7;
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+}
+
+.question {
+  color: #000814;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.button-show {
+  display: block;
+  margin: auto;
+}
