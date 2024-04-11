@@ -12,8 +12,6 @@
     </header>
 
     <main>
-      <div class="space-top"></div>
-
       <section class="pic-and-name">
         <img
           class="profile-pic"
@@ -37,7 +35,17 @@
         <div class="counter"><i class="bi bi-bookmark-fill"></i>2</div>
       </section>
 
-      <div class="space-bottom"></div>
+      <section class="settings-container">
+        <h3><i class="bi bi-gear"></i>Settings</h3>
+        <div class="dark-mode">
+          <p>Dark Mode</p>
+          <input type="checkbox" id="switch" class="checkbox" />
+          <label for="switch" class="toggle">
+            <p>ON</p>
+            <p>OFF</p>
+          </label>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -45,10 +53,12 @@
         <a class="nav-button" href="./index.html"
           ><i class="bi bi-house-door-fill"></i
         ></a>
-        <a class="nav-button-on" href="./bookmarked.html"
+        <a class="nav-button" href="./bookmarked.html"
           ><i class="bi bi-bookmark-fill"></i
         ></a>
-        <a class="nav-button" href="#"><i class="bi bi-person-circle"></i></a>
+        <a class="nav-button-on" href="./profile.html"
+          ><i class="bi bi-person-circle"></i
+        ></a>
       </nav>
     </footer>
   </body>
