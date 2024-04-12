@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="./index.js" defer></script>
+
     <title>Web Dev Quiz App</title>
   </head>
   <body>
@@ -12,7 +14,7 @@
     </header>
 
     <main>
-      <section class="pic-and-name">
+      <section class="pic-and-name" data-js="pic-and-name">
         <img
           class="profile-pic"
           src="./imgs/person-circle.svg"
@@ -21,7 +23,7 @@
         <h2>Jimmy Cando</h2>
       </section>
 
-      <section class="about">
+      <section class="about" data-js="about">
         <h2>About me</h2>
         <p>
           This is a short text about me and what I like. In particular I like
@@ -30,17 +32,22 @@
         </p>
       </section>
 
-      <section class="counter-container">
+      <section class="counter-container" data-js="counter-container">
         <div class="counter"><i class="bi bi-question-circle-fill"></i>4</div>
         <div class="counter"><i class="bi bi-bookmark-fill"></i>2</div>
       </section>
 
-      <section class="settings-container">
-        <h3><i class="bi bi-gear"></i>Settings</h3>
-        <div class="dark-mode">
+      <section class="settings-container" data-js="settings-container">
+        <h3 data-js="settings-heading"><i class="bi bi-gear"></i>Settings</h3>
+        <div class="dark-mode" data-js="dark-mode">
           <p>Dark Mode</p>
           <input type="checkbox" id="switch" class="checkbox" />
-          <label for="switch" role="switch" class="toggle">
+          <label
+            for="switch"
+            role="switch"
+            class="toggle"
+            data-js="toggle-button"
+          >
             <p>ON</p>
             <p>OFF</p>
           </label>
