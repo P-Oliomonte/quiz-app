@@ -15,7 +15,7 @@ const toggleButton = document.querySelector('[data-js="toggle-button"]');
 
 toggleButton.addEventListener("click", () => {
   body.classList.toggle("body-dark");
-  title.classList.toggle("h1-dark");
+  title.classList.toggle("title-dark");
   about.classList.toggle("about-dark");
   picAndName.classList.toggle("pic-and-name-dark");
   counterContainer.classList.toggle("counter-container-dark");

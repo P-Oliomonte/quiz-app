@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Noto Serif, "serif";
+}
+
+.body-dark {
+  background-color: #002242;
+}
+
+main {
+  margin-top: 120px;
+  margin-bottom: 90px;
+}

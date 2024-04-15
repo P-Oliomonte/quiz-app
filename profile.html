@@ -10,7 +10,9 @@
   </head>
   <body>
     <header>
-      <h1><i class="bi bi-patch-question"></i>Quiz App</h1>
+      <h1 class="title">
+        <i class="bi bi-patch-question title-icon"></i>Quiz App
+      </h1>
     </header>
 
     <main>
@@ -20,27 +22,33 @@
           src="./imgs/person-circle.svg"
           alt="profile-picture"
         />
-        <h2>Jimmy Cando</h2>
+        <h2>Mark Book</h2>
       </section>
 
       <section class="about" data-js="about">
-        <h2>About me</h2>
-        <p>
+        <h2 class="about-headline">About me</h2>
+        <p class="about-text">
           This is a short text about me and what I like. In particular I like
-          programming and want to become a web developer – This is why I enjoy
+          programming and want to become a web developer – this is why I enjoy
           this quiz so much.
         </p>
       </section>
 
       <section class="counter-container" data-js="counter-container">
-        <div class="counter"><i class="bi bi-question-circle-fill"></i>4</div>
-        <div class="counter"><i class="bi bi-bookmark-fill"></i>2</div>
+        <div class="counter">
+          <i class="bi bi-question-circle-fill counter-icon counter-icon"></i>4
+        </div>
+        <div class="counter">
+          <i class="bi bi-bookmark-fill counter-icon"></i>2
+        </div>
       </section>
 
       <section class="settings-container" data-js="settings-container">
-        <h3 data-js="settings-heading"><i class="bi bi-gear"></i>Settings</h3>
-        <div class="dark-mode" data-js="dark-mode">
-          <p>Dark Mode</p>
+        <h3 data-js="settings-heading">
+          <i class="bi bi-gear h3-icon"></i>Settings
+        </h3>
+        <div class="dark-mode-container" data-js="dark-mode">
+          <p class="dark-mode">Dark Mode</p>
           <input type="checkbox" id="switch" class="checkbox" />
           <label
             for="switch"
@@ -48,8 +56,8 @@
             class="toggle"
             data-js="toggle-button"
           >
-            <p>ON</p>
-            <p>OFF</p>
+            <p class="toggle-mode">ON</p>
+            <p class="toggle-mode">OFF</p>
           </label>
         </div>
       </section>
@@ -63,7 +71,7 @@
         <a class="nav-button" href="./bookmarked.html"
           ><i class="bi bi-bookmark-fill"></i
         ></a>
-        <a class="nav-button-on" href="./profile.html"
+        <a class="nav-button nav-button-on" href="./profile.html"
           ><i class="bi bi-person-circle"></i
         ></a>
       </nav>

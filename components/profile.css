@@ -1,0 +1,171 @@
+.pic-and-name {
+  color: #003566;
+  font-size: 14px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.pic-and-name-dark {
+  color: white;
+}
+
+.profile-pic {
+  width: 70px;
+}
+
+.about {
+  color: #003566;
+  font-size: 14px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+.about-dark {
+  color: white;
+}
+
+.about-headline {
+  color: #ffc300;
+  font-size: 22px;
+}
+
+.about-text {
+  margin-top: 10px;
+}
+
+.counter-container {
+  margin: auto;
+  width: 90%;
+  border-top: 1px solid #003566;
+  padding-left: 20px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+.counter-container-dark {
+  border-top: 1px solid #acb5bc;
+}
+
+.counter {
+  font-family: Noto Sans, "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  background-color: #acb5bc;
+  min-width: 50px;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+
+.counter-icon {
+  padding-right: 8px;
+  position: relative;
+  top: -3px;
+}
+
+.settings-container {
+  width: 90%;
+  background-color: #e3edf7;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+.settings-container-dark {
+  background-color: #6d8094;
+}
+
+h3 {
+  font-size: 20px;
+  color: #003566;
+}
+
+.h3-dark {
+  color: white;
+}
+
+.h3-icon {
+  position: relative;
+  top: -3px;
+  margin-right: 8px;
+}
+
+.dark-mode {
+  font-family: Noto Sans;
+  font-size: 15px;
+}
+
+.dark-mode-container {
+  border-top: 1px solid #003566;
+  padding-top: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-mode-dark {
+  border-top: 1px solid white;
+  color: white;
+}
+
+/* Toggle switch starter hier */
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 25px;
+  background-color: #acb5bc;
+  border-radius: 13px;
+  border: 2px solid #003566;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle:after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #003566;
+  top: -1px;
+  left: -1px;
+  transition: all 0.5s;
+}
+
+.toggle-mode {
+  font-family: Noto Sans, "sans-serif";
+  padding: 4px;
+  color: #003566;
+  font-size: 8px;
+  display: inline;
+}
+
+.checkbox:checked + .toggle::after {
+  left: 22px;
+}
+
+.checkbox:checked + .toggle {
+  background-color: #ffc300;
+}
+
+.checkbox {
+  display: none;
+}
+
+/* Toggle switch endet hier */

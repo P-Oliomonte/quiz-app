@@ -1,0 +1,102 @@
+.question-card {
+  background-color: #e3edf7;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 90%;
+  padding: 20px;
+}
+
+.bookmark-container {
+  display: flex;
+  justify-content: end;
+}
+
+.bookmark {
+  height: 55px;
+  fill: #ffc300;
+  stroke-miterlimit: 10;
+  stroke-width: 8px;
+  position: relative;
+  top: -30px;
+}
+
+/* .bookmark-unchecked:visited {
+  fill: #003566;
+}
+
+.bookmark-unchecked:active {
+  fill: #003566;
+} */
+
+.bookmark-checked {
+  height: 55px;
+  fill: #003566;
+  stroke-miterlimit: 10;
+  stroke-width: 8px;
+  position: relative;
+  top: -30px;
+}
+
+/* .bookmark-checked:visited {
+  fill: #ffc300;
+}
+
+.bookmark-checked:active {
+  fill: #ffc300;
+} */
+
+.question {
+  color: #000814;
+  text-align: center;
+  margin-top: -15px;
+  padding-bottom: 30px;
+}
+
+.button {
+  width: 100%;
+  font-family: Noto Sans, "sans-serif";
+  color: #003566;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  padding: 12px 20px;
+  margin: auto;
+  background-color: #ffc300;
+  border: 1px solid #003566;
+}
+
+.button:active {
+  color: white;
+  background-color: #003566;
+}
+
+.button-icon {
+  padding-left: 8px;
+}
+
+.answer {
+  color: #000814;
+  background-color: white;
+  border: 1px solid #003566;
+  border-top: 0px;
+  padding: 20px;
+  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.tags-container {
+  font-family: Noto Sans, "sans-serif";
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+.tag {
+  color: white;
+  background-color: #acb5bc;
+  padding: 4px 8px;
+  border-radius: 2px;
+}

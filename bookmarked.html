@@ -10,14 +10,17 @@
   </head>
   <body>
     <header>
-      <h1><i class="bi bi-patch-question"></i>Quiz App</h1>
+      <h1 class="title">
+        <i class="bi bi-patch-question title-icon"></i>Quiz App
+      </h1>
     </header>
 
     <main>
       <section class="question-card">
         <div class="bookmark-container">
           <svg
-            class="bookmark-checked"
+            class="bookmark bookmark-checked"
+            data-js="bookmark-q2"
             data-name="Ebene 1"
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
@@ -28,22 +31,23 @@
         </div>
         <h2 class="question">Which html tag ideally wraps the navigation?</h2>
         <button class="button">
-          Hide answer<i class="bi bi-caret-up-fill"></i>
+          Hide answer<i class="bi bi-caret-up-fill button-icon"></i>
         </button>
         <p class="answer">
           Usually the &lt;nav&gt; tag is used to contain the navigation elements
         </p>
-        <div class="tags">
-          <a href="#">#html</a>
-          <!-- <a href="#">#flexbox</a> -->
-          <!-- <a href="#">#css</a> -->
+        <div class="tags-container">
+          <a class="tag" href="#">#html</a>
+          <!-- <a class="tag" href="#">#flexbox</a> -->
+          <!-- <a class="tag" href="#">#css</a> -->
         </div>
       </section>
 
       <section class="question-card">
         <div class="bookmark-container">
           <svg
-            class="bookmark-checked"
+            class="bookmark bookmark-checked"
+            data-js="bookmark-q3"
             data-name="Ebene 1"
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
@@ -56,12 +60,12 @@
           What CSS property defines the roundness of the corners an element?
         </h2>
         <button class="button">
-          Show answer<i class="bi bi-caret-down-fill"></i>
+          Show answer<i class="bi bi-caret-down-fill button-icon"></i>
         </button>
-        <div class="tags">
-          <a href="#">#html</a>
-          <!-- <a href="#">#flexbox</a> -->
-          <a href="#">#css</a>
+        <div class="tags-container">
+          <a class="tag" href="#">#html</a>
+          <!-- <a class="tag" href="#">#flexbox</a> -->
+          <a class="tag" href="#">#css</a>
         </div>
       </section>
     </main>
@@ -71,7 +75,7 @@
         <a class="nav-button" href="./index.html"
           ><i class="bi bi-house-door-fill"></i
         ></a>
-        <a class="nav-button-on" href="./bookmarked.html"
+        <a class="nav-button nav-button-on" href="./bookmarked.html"
           ><i class="bi bi-bookmark-fill"></i
         ></a>
         <a class="nav-button" href="./profile.html"
