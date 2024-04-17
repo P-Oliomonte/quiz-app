@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="./js/questions.js" defer></script>
     <script src="./js/bookmark.js" defer></script>
-    <script src="./index.js" defer></script>
+    <!-- <script src="./index.js" defer></script> -->
 
     <title>Web Dev Quiz App</title>
   </head>
@@ -31,9 +32,15 @@
           </svg>
         </div>
         <h2 class="question">What property flips the axes in flexbox?</h2>
-        <button class="button">
+
+        <button class="button" data-js="button-answer1">
           Show answer<i class="bi bi-caret-down-fill button-icon"></i>
         </button>
+
+        <p class="answer answer-hide" data-js="answer1">
+          It's the property "flex-direction"
+        </p>
+
         <div class="tags-container">
           <a class="tag" href="#">#html</a>
           <a class="tag" href="#">#flexbox</a>
@@ -55,12 +62,15 @@
           </svg>
         </div>
         <h2 class="question">Which html tag ideally wraps the navigation?</h2>
-        <button class="button">
-          Hide answer<i class="bi bi-caret-up-fill button-icon"></i>
+
+        <button class="button" data-js="button-answer2">
+          Show answer<i class="bi bi-caret-down-fill button-icon"></i>
         </button>
-        <p class="answer">
+
+        <p class="answer answer-hide" data-js="answer2">
           Usually the &lt;nav&gt; tag is used to contain the navigation elements
         </p>
+
         <div class="tags-container">
           <a class="tag" href="#">#html</a>
           <!-- <a class="tag" href="#">#flexbox</a> -->
@@ -82,11 +92,18 @@
           </svg>
         </div>
         <h2 class="question">
-          What CSS property defines the roundness of the corners an element?
+          What CSS property defines the roundness of the corners of an element?
         </h2>
-        <button class="button">
+
+        <button class="button" data-js="button-answer3">
           Show answer<i class="bi bi-caret-down-fill button-icon"></i>
         </button>
+
+        <p class="answer answer-hide" data-js="answer3">
+          The "border-radius" defines the roundness of the corners of an
+          element.
+        </p>
+
         <div class="tags-container">
           <a class="tag" href="#">#html</a>
           <!-- <a class="tag" href="#">#flexbox</a> -->
@@ -110,10 +127,15 @@
         <h2 class="question">
           What CSS property is used to define the columns in a CSS grid layout
         </h2>
-        <button class="button">
-          Hide answer<i class="bi bi-caret-up-fill button-icon"></i>
+
+        <button class="button" data-js="button-answer4">
+          Show answer<i class="bi bi-caret-down-fill button-icon"></i>
         </button>
-        <p class="answer">The answer is 'grid-template-columns'</p>
+
+        <p class="answer answer-hide" data-js="answer4">
+          The answer is 'grid-template-columns'
+        </p>
+
         <div class="tags-container">
           <a class="tag" href="#">#html</a>
           <a class="tag" href="#">#grid</a>
