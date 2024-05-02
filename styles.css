@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,413;1,413&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
-@import "./global.css";
-@import "./components/card.css";
-@import "./components/header.css";
-@import "./components/navigation.css";
-@import "./components/profile.css";
+@import "./css/global.css";
+@import "./css/card.css";
+@import "./css/header.css";
+@import "./css/navigation.css";
+@import "./css/profile.css";
