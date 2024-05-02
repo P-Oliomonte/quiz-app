@@ -1,3 +1,5 @@
+console.log("Connected");
+
 const body = document.querySelector("body");
 const title = document.querySelector("h1");
 const about = document.querySelector('[data-js="about"]');
