@@ -21,14 +21,6 @@
   top: -30px;
 }
 
-/* .bookmark-unchecked:visited {
-  fill: #003566;
-}
-
-.bookmark-unchecked:active {
-  fill: #003566;
-} */
-
 .bookmark-checked {
   height: 55px;
   fill: #003566;
@@ -37,14 +29,6 @@
   position: relative;
   top: -30px;
 }
-
-/* .bookmark-checked:visited {
-  fill: #ffc300;
-}
-
-.bookmark-checked:active {
-  fill: #ffc300;
-} */
 
 .question {
   color: #000814;
