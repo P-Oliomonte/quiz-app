@@ -38,7 +38,7 @@
   border: 1px solid #003566;
   padding: 10px;
   margin-top: 15px;
-  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+  /* box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.3); */
 }
 
 .question-form-input-label {
@@ -70,7 +70,7 @@
   background-color: white;
   border: 1px solid #003566;
   padding: 10px;
-  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+  /* box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.3); */
 }
 
 .question-form-submit-button {
