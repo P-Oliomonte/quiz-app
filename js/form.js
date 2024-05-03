@@ -31,7 +31,7 @@ inputAnswer.addEventListener("input", () => {
 // Function to add '#'
 
 function hashtag(data) {
-  const input = data.tag.split(" ").join("");
+  const input = data.split(" ").join("");
   if (input.startsWith("#")) {
     return input;
   } else {
@@ -51,10 +51,8 @@ form.addEventListener("submit", (event) => {
 
   const questionInput = data.question;
   const answerInput = data.answer;
-  const tagInput = hashtag(data);
-  //   let tagInput = data.tag.split(" ").join("");
+  const tagInput = hashtag(data.tag);
 
-  //   tagInput = hashtag(tagInput);
   // Creating elements and appending them to the DOM
 
   const questionCard = document.createElement("section");
