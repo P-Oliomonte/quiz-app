@@ -15,15 +15,18 @@ inputQuestion.focus();
 
 // This is the function for the character counters
 
-function characterCounter(input, counter) {
-  input.addEventListener("input", () => {
-    charactersLeft = input.getAttribute("maxlength") - input.value.length;
-    counter.textContent = charactersLeft;
-  });
+function textfieldInput(input, characterCount) {
+  characterCount.textContent =
+    input.getAttribute("maxlength") - input.value.length;
 }
 
-characterCounter(inputQuestion, characterCounterQuestion);
-characterCounter(inputAnswer, characterCounterAnswer);
+inputQuestion.addEventListener("input", () => {
+  textfieldInput(inputQuestion, characterCounterQuestion);
+});
+
+inputAnswer.addEventListener("input", () => {
+  textfieldInput(inputAnswer, characterCounterAnswer);
+});
 
 // Function to add '#'
 
