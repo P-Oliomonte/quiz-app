@@ -118,7 +118,7 @@ form.addEventListener("submit", (event) => {
   event.target.reset();
   event.target.question.focus();
 
-  // Here is the event li
+  // Here is the event listener
 
   hideShowButton.addEventListener("click", () => {
     answer.classList.toggle("answer-hide");
