@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../js/form.js" defer></script>
+
+    <title>Web Dev Quiz App</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">
+        <i class="bi bi-patch-question title-icon"></i>Quiz App
+      </h1>
+    </header>
+
+    <main>
+      <h2 id="question-form-headline" class="question-form-headline">
+        New question
+      </h2>
+
+      <form
+        action=""
+        class="question-form"
+        data-js="question-form"
+        aria-labelledby="question-form-headline"
+      >
+        <h3 class="question-form-headline">
+          Enter your question here and add it to the set
+        </h3>
+
+        <label for="question" class="question-form-input-label"
+          >1. Your question:</label
+        >
+        <textarea
+          name="question"
+          id="question"
+          data-js="question-form-input"
+          class="question-form-input"
+          maxlength="150"
+          required
+        ></textarea>
+        <p class="question-form-character-counter">
+          <span data-js="character-counter-question">150</span> characters left
+        </p>
+
+        <label for="answer" class="question-form-input-label"
+          >2. Your answer:</label
+        >
+        <textarea
+          name="answer"
+          id="answer"
+          data-js="answer-form-input"
+          class="question-form-input"
+          maxlength="150"
+          required
+        ></textarea>
+        <p class="question-form-character-counter">
+          <span data-js="character-counter-answer">150</span> characters left
+        </p>
+
+        <div class="question-form-input-tag-container">
+          <label
+            for="question-tag"
+            class="question-form-input-label question-form-input-label-tag"
+            >Tag:</label
+          >
+          <input
+            type="text"
+            name="tag"
+            id="question-tag"
+            data-js="question-form-tag"
+            class="question-form-input-tag"
+            required
+          />
+        </div>
+
+        <button
+          type="submit"
+          name="submit-button"
+          class="question-form-submit-button"
+        >
+          Add question
+        </button>
+      </form>
+    </main>
+
+    <footer>
+      <nav class="nav-bar">
+        <a class="nav-button" href="../index.html"
+          ><i class="bi bi-house-door-fill"></i
+        ></a>
+        <a class="nav-button" href="./bookmarked.html"
+          ><i class="bi bi-bookmark-fill"></i
+        ></a>
+        <a class="nav-button nav-button-on" href="./form.html"
+          ><i class="bi bi-plus-circle-fill"></i
+        ></a>
+        <a class="nav-button" href="./profile.html"
+          ><i class="bi bi-person-circle"></i
+        ></a>
+      </nav>
+    </footer>
+  </body>
+</html>
